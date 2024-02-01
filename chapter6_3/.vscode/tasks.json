@@ -1,0 +1,41 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "g++ build active file",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "${fileDirname}/PayOff3.cpp", 
+                "${fileDirname}/Random2.cpp",
+                "${fileDirname}/SimpleMC8.cpp", 
+                "${fileDirname}/Vanilla3.cpp", 
+                "${fileDirname}/PayOffBridge.cpp", 
+                "${fileDirname}/Parameters.cpp", 
+                "${fileDirname}/MCStatistics.cpp", 
+                "${fileDirname}/Wrapper.cpp", 
+                "${fileDirname}/ConvergenceTable.cpp", 
+                "${fileDirname}/Normals.cpp", 
+                "${fileDirname}/AntiThetic.cpp", 
+                "${fileDirname}/Arrays.cpp", 
+                "${fileDirname}/ParkMiller.cpp", 
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:\\MinGW\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "デバッガーによって生成されたタスク。"
+        }
+    ],
+    "version": "2.0.0"
+}
